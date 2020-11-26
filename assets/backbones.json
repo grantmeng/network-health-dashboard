@@ -1,0 +1,30 @@
+{
+
+"NJ North": {
+	"text": "NJ North",
+	"lat": "40.7924311",
+	"lon": "-74.1466883",
+ 	"address": "Lyndhurst, NJ",
+	"color": "green"
+	},
+"NJ South": {
+	"text": "NJ South",
+	"lat": "40.4010986",
+	"lon": "-74.1326268",
+ 	"address": "Marlboro, NJ",
+	"color": "red"
+	},
+"NYC": {
+	"text": "NYC",
+	"lat": "40.7176683",
+	"lon": "-74.0105219",
+ 	"address": "New York, NY",
+	"color": "green"
+	},
+"connect": [
+	{"src": "NJ North", "dest": "NJ South", "label": "Route 1"},
+	{"src": "NJ North", "dest": "NYC", "label": "Route 2"},
+	{"src": "NJ South", "dest": "NYC", "label": "Route 3"}
+	]
+
+}
